@@ -8,7 +8,6 @@ export class Performance {
     public parts: Part[],
   ) {}
 
-
   partPosition(nowPart: number) {
     if (this.parts.length === 0) {
       return null;

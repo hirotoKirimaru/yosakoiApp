@@ -48,7 +48,6 @@
             required
           ></v-text-field>
 
-
           <v-text-field
             v-model="tmpPerformer.shortName"
             :count="2"
@@ -104,7 +103,6 @@
           required
         ></v-text-field>
 
-
         <v-text-field
           v-model="tmpPerformer.shortName"
           :count="2"
@@ -128,12 +126,10 @@
   </v-container>
 </template>
 
-
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { Performer } from '@/types/performer';
 import { Part, Performance } from '@/types/part';
-
 
   @Component({
     components: {
